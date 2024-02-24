@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+
+  web:
+    build:
+      context: ./docker/nginx
+    volumes:
+      - .:/app
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./docker/nginx/sites/:/etc/nginx/sites-available
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d
+      - ./var/logs:/var/log/nginx
+    depends_on:
+      - php-fpm
+    ports:
+      - 8080:80
+      - 443:443
+      - 10081:10081
+      - 10082:10082    
+
+  php-fpm:
+    build:
+      context: ./docker/php-fpm
+    volumes:
+      - .:/app
+    depends_on:
+      - mongodb
