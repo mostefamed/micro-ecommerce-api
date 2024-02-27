@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Response;
+namespace Mostefa\MicroEcommerce\Response;
 
 use Laminas\Diactoros\Response\JsonResponse as LaminasJsonResponse;
 use Prooph\HttpMiddleware\Response\ResponseStrategy;

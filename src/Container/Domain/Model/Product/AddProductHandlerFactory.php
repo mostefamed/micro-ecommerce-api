@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Domain\Model\Product;
+namespace Mostefa\MicroEcommerce\Container\Domain\Model\Product;
 
-use Mostefa\TechnicalTest\Domain\Model\Product\Handler\AddProductHandler;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Handler\AddProductHandler;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductRepository;
 use Psr\Container\ContainerInterface;
 
 class AddProductHandlerFactory

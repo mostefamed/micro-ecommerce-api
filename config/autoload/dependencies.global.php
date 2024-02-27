@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest;
+namespace Mostefa\MicroEcommerce;
 
 return [
     // Provides application-wide services.

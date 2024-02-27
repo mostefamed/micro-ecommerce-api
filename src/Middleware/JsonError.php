@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Middleware;
+namespace Mostefa\MicroEcommerce\Middleware;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

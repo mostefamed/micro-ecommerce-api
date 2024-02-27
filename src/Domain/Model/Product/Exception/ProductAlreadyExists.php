@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product\Exception;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product\Exception;
 
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductName;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductName;
 
 final class ProductAlreadyExists extends \InvalidArgumentException
 {

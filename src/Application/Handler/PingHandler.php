@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Application\Handler;
+namespace Mostefa\MicroEcommerce\Application\Handler;
 
 use Laminas\Diactoros\Response\JsonResponse;
 use Psr\Http\Message\ResponseInterface;

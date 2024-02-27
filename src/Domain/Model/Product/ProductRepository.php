@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product;
 
 interface ProductRepository
 {

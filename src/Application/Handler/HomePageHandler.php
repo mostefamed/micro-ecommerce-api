@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Application\Handler;
+namespace Mostefa\MicroEcommerce\Application\Handler;
 
 use Laminas\Diactoros\Response\HtmlResponse;
 use Laminas\Diactoros\Response\JsonResponse;
@@ -79,6 +79,6 @@ class HomePageHandler implements RequestHandlerInterface
             $data['templateDocs'] = 'https://docs.zendframework.com/zend-view/';
         }
 
-        return new HtmlResponse($this->template->render('app::home-page', $data));
+        return new HtmlResponse($this->template->render('application::home-page', $data));
     }
 }

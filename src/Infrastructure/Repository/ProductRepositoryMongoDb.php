@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Infrastructure\Repository;
+namespace Mostefa\MicroEcommerce\Infrastructure\Repository;
 
-use Mostefa\TechnicalTest\Domain\Model\Product\Product;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductName;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Product;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductName;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductRepository;
 
 final class ProductRepositoryMongoDb implements ProductRepository
 {

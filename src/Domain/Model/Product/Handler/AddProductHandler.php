@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product\Handler;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product\Handler;
 
-use Mostefa\TechnicalTest\Domain\Model\Product\Command\AddProduct;
-use Mostefa\TechnicalTest\Domain\Model\Product\Exception\ProductAlreadyExists;
-use Mostefa\TechnicalTest\Domain\Model\Product\Product;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Command\AddProduct;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Exception\ProductAlreadyExists;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Product;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductRepository;
 
 class AddProductHandler
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Infrastructure\Service;
+namespace Mostefa\MicroEcommerce\Infrastructure\Service;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\Service\Categories;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Service\Categories;
 
 final class CategoriesFromQuery implements Categories
 {

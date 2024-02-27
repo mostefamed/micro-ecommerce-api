@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category\Exception;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category\Exception;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryName;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryName;
 
 final class CategoryAlreadyExists extends \InvalidArgumentException
 {

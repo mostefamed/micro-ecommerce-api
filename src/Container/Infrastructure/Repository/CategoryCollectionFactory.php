@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Infrastructure\Repository;
+namespace Mostefa\MicroEcommerce\Container\Infrastructure\Repository;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryCollection;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryCollection;
 use Psr\Container\ContainerInterface;
 
 class CategoryCollectionFactory

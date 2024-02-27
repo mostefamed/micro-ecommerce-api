@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category;
 
-use Mostefa\TechnicalTest\Domain\Model\ValueObject;
+use Mostefa\MicroEcommerce\Domain\Model\ValueObject;
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
 

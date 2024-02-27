@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Infrastructure\Repository;
+namespace Mostefa\MicroEcommerce\Container\Infrastructure\Repository;
 
-use Mostefa\TechnicalTest\Infrastructure\Repository\ProductRepositoryMongoDb;
+use Mostefa\MicroEcommerce\Infrastructure\Repository\ProductRepositoryMongoDb;
 use Psr\Container\ContainerInterface;
 
 class ProductRepositoryFactory

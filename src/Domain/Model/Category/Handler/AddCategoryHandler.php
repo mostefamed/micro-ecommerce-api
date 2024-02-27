@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category\Handler;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category\Handler;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\Category;
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryRepository;
-use Mostefa\TechnicalTest\Domain\Model\Category\Command\AddCategory;
-use Mostefa\TechnicalTest\Domain\Model\Category\Exception\CategoryAlreadyExists;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Category;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Command\AddCategory;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Exception\CategoryAlreadyExists;
 
 class AddCategoryHandler
 {

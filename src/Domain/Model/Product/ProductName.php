@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product;
 
 use Assert\Assertion;
-use Mostefa\TechnicalTest\Domain\Model\ValueObject;
+use Mostefa\MicroEcommerce\Domain\Model\ValueObject;
 
 final class ProductName implements ValueObject
 {

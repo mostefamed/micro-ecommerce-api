@@ -1,18 +1,10 @@
 <?php
-/**
- * This file is part of prooph/proophessor-do.
- * (c) 2014-2018 prooph software GmbH <contact@prooph.de>
- * (c) 2015-2018 Sascha-Oliver Prolic <saschaprolic@googlemail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
 
 declare(strict_types=1);
 
-namespace Prooph\ProophessorDo;
+namespace Mostefa\MicroEcommerce;
 
-/**
+/*
  * Local configuration overrides - make your adjustments here
  */
 return [
@@ -25,7 +17,7 @@ return [
                 'port' => '3306',
                 'user' => 'root',
                 'password' => 'root',
-                'dbname' => 'technicalTest',
+                'dbname' => 'micro-ecommerce',
                 'charset' => 'utf8',
                 'driverOptions' => [
                     1002 => "SET NAMES 'UTF8'",
@@ -34,4 +26,3 @@ return [
         ],
     ],
 ];
-

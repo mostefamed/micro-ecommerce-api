@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Domain\Model\Category;
+namespace Mostefa\MicroEcommerce\Container\Domain\Model\Category;
 
-use Mostefa\TechnicalTest\Infrastructure\Service\CategoriesFromQuery;
+use Mostefa\MicroEcommerce\Infrastructure\Service\CategoriesFromQuery;
 use Psr\Container\ContainerInterface;
 
 class CategoriesFactory

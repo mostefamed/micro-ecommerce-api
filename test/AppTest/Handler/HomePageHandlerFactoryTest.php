@@ -6,8 +6,8 @@ namespace AppTest\Handler;
 
 use Mezzio\Router\RouterInterface;
 use Mezzio\Template\TemplateRendererInterface;
-use Mostefa\TechnicalTest\Application\Handler\HomePageHandler;
-use Mostefa\TechnicalTest\Container\Application\Handler\HomePageHandlerFactory;
+use Mostefa\MicroEcommerce\Application\Handler\HomePageHandler;
+use Mostefa\MicroEcommerce\Container\Application\Handler\HomePageHandlerFactory;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;

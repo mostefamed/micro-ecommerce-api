@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category\Command;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category\Command;
 
 use Assert\Assertion;
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryId;
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryName;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryId;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryName;
 use Prooph\Common\Messaging\Command;
 use Prooph\Common\Messaging\PayloadConstructable;
 use Prooph\Common\Messaging\PayloadTrait;

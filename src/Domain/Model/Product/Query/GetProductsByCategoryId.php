@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product\Query;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product\Query;
 
 final class GetProductsByCategoryId
 {

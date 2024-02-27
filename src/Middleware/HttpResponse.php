@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Middleware;
+namespace Mostefa\MicroEcommerce\Middleware;
 
 use Laminas\Diactoros\Response\JsonResponse;
 use Psr\Http\Message\ResponseInterface;

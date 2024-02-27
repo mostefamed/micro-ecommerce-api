@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Infrastructure\Repository;
+namespace Mostefa\MicroEcommerce\Container\Infrastructure\Repository;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\DriverManager;

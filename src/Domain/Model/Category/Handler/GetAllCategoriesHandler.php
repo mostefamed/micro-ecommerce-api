@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category\Handler;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category\Handler;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryRepository;
-use Mostefa\TechnicalTest\Domain\Model\Category\Query\GetAllCategories;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Query\GetAllCategories;
 use React\Promise\Deferred;
 
 class GetAllCategoriesHandler

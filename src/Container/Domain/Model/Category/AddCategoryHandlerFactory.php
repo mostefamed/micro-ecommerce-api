@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Domain\Model\Category;
+namespace Mostefa\MicroEcommerce\Container\Domain\Model\Category;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryRepository;
-use Mostefa\TechnicalTest\Domain\Model\Category\Handler\AddCategoryHandler;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Handler\AddCategoryHandler;
 use Psr\Container\ContainerInterface;
 
 class AddCategoryHandlerFactory

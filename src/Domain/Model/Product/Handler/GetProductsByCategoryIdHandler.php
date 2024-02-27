@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product\Handler;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product\Handler;
 
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductRepository;
-use Mostefa\TechnicalTest\Domain\Model\Product\Query\GetProductsByCategoryId;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Query\GetProductsByCategoryId;
 use React\Promise\Deferred;
 
 class GetProductsByCategoryIdHandler

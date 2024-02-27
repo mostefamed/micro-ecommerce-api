@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Application\Action\Category;
+namespace Mostefa\MicroEcommerce\Application\Action\Category;
 
 use Laminas\Diactoros\Response\JsonResponse;
 use Laminas\Paginator\Paginator;
 use Laminas\Paginator\ScrollingStyle\Sliding;
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryCollection;
-use Mostefa\TechnicalTest\Domain\Model\Category\Query\GetAllCategories;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryCollection;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Query\GetAllCategories;
 use Prooph\ServiceBus\QueryBus;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -18,7 +18,7 @@ class Categories implements RequestHandlerInterface
 {
     public function __construct(
         private readonly QueryBus $queryBus,
-        private readonly \Mostefa\TechnicalTest\Domain\Model\Category\Service\Categories $categories)
+        private readonly \Mostefa\MicroEcommerce\Domain\Model\Category\Service\Categories $categories)
     {
     }
 

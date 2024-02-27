@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product\Service;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product\Service;
 
 interface ProductsByCategoryIdPayLoad
 {

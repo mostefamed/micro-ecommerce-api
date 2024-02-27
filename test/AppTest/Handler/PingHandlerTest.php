@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace AppTest\Handler;
 
 use Laminas\Diactoros\Response\JsonResponse;
-use Mostefa\TechnicalTest\Application\Handler\PingHandler;
+use Mostefa\MicroEcommerce\Application\Handler\PingHandler;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Psr\Http\Message\ServerRequestInterface;

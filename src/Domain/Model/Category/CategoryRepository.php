@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category;
 
 interface CategoryRepository
 {

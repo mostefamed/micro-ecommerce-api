@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Infrastructure\Repository;
+namespace Mostefa\MicroEcommerce\Infrastructure\Repository;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\Category;
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryName;
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryRepository;
+use Mostefa\MicroEcommerce\Domain\Model\Category\Category;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryName;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryRepository;
 
 final class CategoryRepositoryMongoDb implements CategoryRepository
 {

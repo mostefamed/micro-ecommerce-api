@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product\Command;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product\Command;
 
 use Assert\Assertion;
-use Mostefa\TechnicalTest\Domain\Model\Money;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductId;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductName;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductPrice;
+use Mostefa\MicroEcommerce\Domain\Model\Money;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductId;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductName;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductPrice;
 use Prooph\Common\Messaging\Command;
 use Prooph\Common\Messaging\PayloadConstructable;
 use Prooph\Common\Messaging\PayloadTrait;

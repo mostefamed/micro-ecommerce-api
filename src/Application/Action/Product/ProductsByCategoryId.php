@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Application\Action\Product;
+namespace Mostefa\MicroEcommerce\Application\Action\Product;
 
 use Laminas\Diactoros\Response\JsonResponse;
 use Laminas\Paginator\Paginator;
 use Laminas\Paginator\ScrollingStyle\Sliding;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductsCollection;
-use Mostefa\TechnicalTest\Domain\Model\Product\Query\GetProductsByCategoryId;
-use Mostefa\TechnicalTest\Domain\Model\Product\Service\ProductsByCategoryIdPayLoad;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductsCollection;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Query\GetProductsByCategoryId;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Service\ProductsByCategoryIdPayLoad;
 use Prooph\ServiceBus\QueryBus;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

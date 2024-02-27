@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Exception;
+namespace Mostefa\MicroEcommerce\Domain\Model\Exception;
 
 final class InvalidMoney extends \InvalidArgumentException
 {

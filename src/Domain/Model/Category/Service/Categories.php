@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category\Service;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category\Service;
 
 interface Categories
 {

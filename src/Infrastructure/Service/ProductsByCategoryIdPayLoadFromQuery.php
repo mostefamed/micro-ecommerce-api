@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Infrastructure\Service;
+namespace Mostefa\MicroEcommerce\Infrastructure\Service;
 
 use Assert\Assert;
-use Mostefa\TechnicalTest\Domain\Model\Product\Service\ProductsByCategoryIdPayLoad;
+use Mostefa\MicroEcommerce\Domain\Model\Product\Service\ProductsByCategoryIdPayLoad;
 
 final class ProductsByCategoryIdPayLoadFromQuery implements ProductsByCategoryIdPayLoad
 {

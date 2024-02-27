@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product\Exception;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product\Exception;
 
 use Fig\Http\Message\StatusCodeInterface;
 

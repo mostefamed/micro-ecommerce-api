@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Middleware;
+namespace Mostefa\MicroEcommerce\Middleware;
 
-use Mostefa\TechnicalTest\Domain\Model\Category\CategoryId;
-use Mostefa\TechnicalTest\Domain\Model\Product\ProductId;
+use Mostefa\MicroEcommerce\Domain\Model\Category\CategoryId;
+use Mostefa\MicroEcommerce\Domain\Model\Product\ProductId;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;

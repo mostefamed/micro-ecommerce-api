@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Domain\Model\Product;
+namespace Mostefa\MicroEcommerce\Container\Domain\Model\Product;
 
-use Mostefa\TechnicalTest\Infrastructure\Service\ProductsByCategoryIdPayLoadFromQuery;
+use Mostefa\MicroEcommerce\Infrastructure\Service\ProductsByCategoryIdPayLoadFromQuery;
 use Psr\Container\ContainerInterface;
 
 class ProductsByCategoryIdPayLoadFactory

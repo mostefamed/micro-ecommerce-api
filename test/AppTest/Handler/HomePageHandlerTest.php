@@ -8,7 +8,7 @@ use Laminas\Diactoros\Response\HtmlResponse;
 use Laminas\Diactoros\Response\JsonResponse;
 use Mezzio\Router\RouterInterface;
 use Mezzio\Template\TemplateRendererInterface;
-use Mostefa\TechnicalTest\Application\Handler\HomePageHandler;
+use Mostefa\MicroEcommerce\Application\Handler\HomePageHandler;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Prophecy\PhpUnit\ProphecyTrait;
@@ -49,7 +49,7 @@ class HomePageHandlerTest extends TestCase
     {
         $renderer = $this->prophesize(TemplateRendererInterface::class);
         $renderer
-            ->render('app::home-page', Argument::type('array'))
+            ->render('application::home-page', Argument::type('array'))
             ->willReturn('');
 
         $homePage = new HomePageHandler(

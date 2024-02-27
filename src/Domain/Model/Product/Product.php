@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product;
 
 use JMS\Serializer\Annotation as JMS;
 use JMS\Serializer\Naming\IdenticalPropertyNamingStrategy;
 use JMS\Serializer\Naming\SerializedNameAnnotationStrategy;
 use JMS\Serializer\SerializationContext;
 use JMS\Serializer\SerializerBuilder;
-use Mostefa\TechnicalTest\Domain\Model\Entity;
+use Mostefa\MicroEcommerce\Domain\Model\Entity;
 
 final class Product implements Entity
 {
@@ -19,7 +19,7 @@ final class Product implements Entity
     /** @JMS\Type("string") */
     private string $productName;
 
-    /** @JMS\Type("Mostefa\TechnicalTest\Domain\Model\Category\ProductPrice") */
+    /** @JMS\Type("Mostefa\MicroEcommerce\Domain\Model\Category\ProductPrice") */
     /** @JMS\Exclude() */
     private ProductPrice $productPrice;
 

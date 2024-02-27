@@ -8,10 +8,10 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Middleware;
+namespace Mostefa\MicroEcommerce\Container\Middleware;
 
 use Mezzio\Helper\UrlHelper;
-use Mostefa\TechnicalTest\Middleware\HttpResponse;
+use Mostefa\MicroEcommerce\Middleware\HttpResponse;
 use Psr\Container\ContainerInterface;
 
 final class HttpResponseFactory

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Container\Application\Handler;
+namespace Mostefa\MicroEcommerce\Container\Application\Handler;
 
 use Mezzio\Router\RouterInterface;
 use Mezzio\Template\TemplateRendererInterface;
-use Mostefa\TechnicalTest\Application\Handler\HomePageHandler;
+use Mostefa\MicroEcommerce\Application\Handler\HomePageHandler;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 

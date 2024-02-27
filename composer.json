@@ -82,7 +82,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mostefa\\TechnicalTest\\": "src/"
+            "Mostefa\\MicroEcommerce\\": "src/"
         }
     },
     "autoload-dev": {

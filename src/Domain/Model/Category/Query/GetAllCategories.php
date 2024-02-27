@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category\Query;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category\Query;
 
 class GetAllCategories
 {

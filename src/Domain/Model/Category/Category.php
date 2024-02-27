@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Category;
+namespace Mostefa\MicroEcommerce\Domain\Model\Category;
 
 use JMS\Serializer\Annotation as JMS;
 use JMS\Serializer\Naming\IdenticalPropertyNamingStrategy;
 use JMS\Serializer\Naming\SerializedNameAnnotationStrategy;
 use JMS\Serializer\SerializationContext;
 use JMS\Serializer\SerializerBuilder;
-use Mostefa\TechnicalTest\Domain\Model\Entity;
+use Mostefa\MicroEcommerce\Domain\Model\Entity;
 
 final class Category implements Entity
 {

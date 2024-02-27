@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Mostefa\TechnicalTest\Domain\Model\Product;
+namespace Mostefa\MicroEcommerce\Domain\Model\Product;
 
 use Assert\Assertion;
-use Mostefa\TechnicalTest\Domain\Model\Exception\InvalidMoney;
-use Mostefa\TechnicalTest\Domain\Model\Money;
-use Mostefa\TechnicalTest\Domain\Model\ValueObject;
+use Mostefa\MicroEcommerce\Domain\Model\Exception\InvalidMoney;
+use Mostefa\MicroEcommerce\Domain\Model\Money;
+use Mostefa\MicroEcommerce\Domain\Model\ValueObject;
 
 final class ProductPrice implements ValueObject
 {
