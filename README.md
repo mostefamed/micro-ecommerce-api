@@ -80,3 +80,111 @@ you deploy to the same directory. You may do so using the following:
 ```bash
 $ composer clear-config-cache
 ```
+
+## How to test ?
+
+> BasePath: /
+>   * POST   /categories                      => Add a new category
+>  ```bash
+>     {
+>        "name": "furniture"
+>     }
+>   ```
+
+
+>   * GET    /categories                      => Get all the categories (pagination available, limit and page query params)
+>   * Example: GET /categories
+>  ```bash
+> {
+>    "metadata": {
+>        "pageCount": 1,
+>        "itemCountPerPage": 2,
+>        "first": 1,
+>        "current": 1,
+>        "last": 1,
+>        "pagesInRange": {
+>            "1": 1
+>        },
+>        "firstPageInRange": 1,
+>        "lastPageInRange": 1,
+>        "currentItemCount": 2,
+>        "totalItemCount": 2,
+>        "firstItemNumber": 1,
+>        "lastItemNumber": 2
+>    },
+>    "data": [
+>        {
+>            "_id": {
+>                "$oid": "65ddb87b03f4b5c8d209ffb2"
+>            },
+>            "categoryId": "ef80597c-afbc-4fc0-960b-500300a21cc1",
+>            "categoryName": "canapés"
+>        },
+>        {
+>            "_id": {
+>                "$oid": "65de18fa03f4b5c8d209ffb3"
+>            },
+>            "categoryId": "fb37389c-61b0-49b9-aae4-ba6dcde0e090",
+>            "categoryName": "furniture"
+>        }
+>    ]
+> }
+
+ 
+
+>   * POST   /products                        => Add a new product
+>  ```bash
+>
+>  {
+>     "name": "Sofa",
+>     "quantity": 11,
+>     "amount": 198.99,
+>     "currency": "EUR",
+>     "categoriesMembership": [
+>        "fb37389c-61b0-49b9-aae4-ba6dcde0e090"
+>     ]
+> }
+>   ```
+
+
+>   * GET   /categories/:categoryId/products                       => Get the products that belong to the categoryId (pagination available, limit and page query params)
+>   * Example: GET /categories/fb37389c-61b0-49b9-aae4-ba6dcde0e090/products
+>
+>  ```bash
+> {
+>    "metadata": {
+>        "pageCount": 1,
+>        "itemCountPerPage": 20,
+>        "first": 1,
+>        "current": 1,
+>        "last": 1,
+>        "pagesInRange": {
+>            "1": 1
+>        },
+>        "firstPageInRange": 1,
+>        "lastPageInRange": 1,
+>        "currentItemCount": 1,
+>        "totalItemCount": 1,
+>        "firstItemNumber": 1,
+>        "lastItemNumber": 1
+>    },
+>    "data": [
+>        {
+>            "_id": {
+>                "$oid": "65de194403f4b5c8d209ffb4"
+>            },
+>            "productId": "6b07a2fe-6941-43e0-af28-1040c7a30128",
+>            "productName": "Sofa",
+>            "productPrice": {
+>                "price": {
+>                    "currency": "EUR",
+>                    "amount": 198.99
+>                }
+>            },
+>            "quantity": 11,
+>            "categoriesMembership": [
+>                "fb37389c-61b0-49b9-aae4-ba6dcde0e090"
+>            ]
+>        }
+>    ]
+> }
