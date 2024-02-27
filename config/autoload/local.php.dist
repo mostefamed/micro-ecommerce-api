@@ -11,8 +11,8 @@ declare(strict_types=1);
 return [
     'em' => [
         'mongodb' => [
-            'categoryMongoDb' => ['uri' => 'mongodb://mongodb/', 'database' => 'technicalTest', 'collection' => 'category'],
-            'productMongoDb' => ['uri' => 'mongodb://mongodb/', 'database' => 'technicalTest', 'collection' => 'product'],
+            'categoryMongoDb' => ['uri' => 'mongodb://mongodb/', 'database' => 'micro-ecommerce', 'collection' => 'category'],
+            'productMongoDb' => ['uri' => 'mongodb://mongodb/', 'database' => 'micro-ecommerce', 'collection' => 'product'],
         ],
     ],
 

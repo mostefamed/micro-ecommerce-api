@@ -1,10 +1,10 @@
 {
-    "name": "mostefa/technical-test",
+    "name": "mostefa/micro-ecommerce",
     "description": "A rest API to handle a micro e-commerce website",
     "type": "project",
     "authors": [
         {
-            "name": "mostefa",
+            "name": "mostefa medjahed",
             "email": "mostefa.medjahed.pro@gmail.com"
         }
     ],
@@ -17,7 +17,9 @@
         "psr-15",
         "zf",
         "zendframework",
-        "mezzio"
+        "mezzio",
+        "cqrs",
+        "php8"
     ],
     "config": {
         "sort-packages": true,
